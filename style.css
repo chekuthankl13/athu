@@ -1,0 +1,21 @@
+.jumbotron{
+    border-radius: 0;
+    padding: 3rem 0 2rem ;
+    background:url('images/black_panther.jpg') no-repeat center ;
+    background-size: cover;
+}
+.portfolio img {
+    max-width: 100%;
+    transition: transform .5s ease;
+}
+.row.no-padding [class*=col-] {
+    padding: 0;
+}
+.portfolio img:hover {
+    transform: scale(1.3);
+    cursor: zoom-in;
+
+}
+.card-img-top{
+    height: 10rem;
+}
